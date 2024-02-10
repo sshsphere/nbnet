@@ -2,9 +2,9 @@ name: nbnet
 
 on:
   push:
-    branches: [ master, github-actions, release-2.0 ]
+    branches: [ master, test, github-actions, release-2.0 ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, test ]
   workflow_dispatch:
 
 jobs:
