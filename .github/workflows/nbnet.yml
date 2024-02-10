@@ -5,6 +5,7 @@ on:
     branches: [ master, github-actions, release-2.0 ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   unit-tests-linux:
